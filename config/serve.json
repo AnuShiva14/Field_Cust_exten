@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://learnmyself04.sharepoint.com/sites/TestSite/Lists/SPFxProjects/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percentage": {
+          "id": "0ac2eecb-1cdc-478d-bb0c-5b3adedd80a5",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "spFxFieldCust": {
+      "pageUrl": "https://learnmyself04.sharepoint.com/sites/TestSite/Lists/SPFxProjects/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percentage": {
+          "id": "0ac2eecb-1cdc-478d-bb0c-5b3adedd80a5",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
